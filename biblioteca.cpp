@@ -27,17 +27,23 @@ void leiaComplexo(struct tComplexos* pComplexos){
 //FUNÇÃO QUE VAI ESCREVER OS NUMEROS COMPLEXOS
 
 void escreveComplexo(struct tComplexos* pComplexos){
-  cout<< pComplexos->real << endl;
-  cout<< pComplexos->imag<<"*i" << endl;
+  cout<<"o número complexo é: "<< pComplexos->real<<"+"<< pComplexos->imag<<"*i" << endl;
+
 }
 
 //ESTRUTURA QUE IRÁ REALIZAR A SOMA DOS COMPLEXOS
 
-tComplexos* somaComplex (float result, float num1,float num2, float a, float b, float c,float d){
-  num1 = a+c;
-  num2 = b+d;
-  tComplexos* result= num1+num2;
+int somaComplex ( int real,int imag, int a, int b, int c,int d, int result){
+  
+  a=2;
+  b=5;
+  c=3;
+  d=1;
 
-return result;
+  real = a+c;
+  imag = b+d;
+
+
+  return real, imag;
 
 }
