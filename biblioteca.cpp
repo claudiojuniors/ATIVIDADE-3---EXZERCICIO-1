@@ -31,7 +31,7 @@ void escreveComplexo(struct tComplexos* pComplexos){
 
 }
 
-//ESTRUTURA QUE IRÁ REALIZAR A SOMA DOS COMPLEXOS
+//FUNÇÃO QUE IRÁ REALIZAR A SOMA DOS COMPLEXOS
 
 int somaComplex ( int real,int imag, int a, int b, int c,int d, int result){
   
@@ -43,7 +43,20 @@ int somaComplex ( int real,int imag, int a, int b, int c,int d, int result){
   real = a+c;
   imag = b+d;
 
+  return real, imag;
+}
+
+//FUNÇÃO QUE IRÁ REALIZAR A SUBTRAÇÃO
+
+int subtraiComplex ( int real,int imag, int a, int b, int c,int d, int result){
+  
+  a=2;
+  b=5;
+  c=3;
+  d=1;
+
+  real = a-c;
+  imag = b-d;
 
   return real, imag;
-
 }
