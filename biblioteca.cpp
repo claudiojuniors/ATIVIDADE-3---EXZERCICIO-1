@@ -33,3 +33,11 @@ void escreveComplexo(struct tComplexos* pComplexos){
 
 //ESTRUTURA QUE IRÁ REALIZAR A SOMA DOS COMPLEXOS
 
+tComplexos* somaComplex (float result, float num1,float num2, float a, float b, float c,float d){
+  num1 = a+c;
+  num2 = b+d;
+  tComplexos* result= num1+num2;
+
+return result;
+
+}
