@@ -60,3 +60,18 @@ int subtraiComplex ( int real,int imag, int a, int b, int c,int d, int result){
 
   return real, imag;
 }
+
+// ESTRUTURA QUE IRÁ MULTIPLICAR OS COMPLEXOS 
+
+struct multComplexos(int cnum1, int cnum2, int mul) 
+
+cnum1=5;
+cnum2=3;
+
+cin>>&cnum1.real, &cnum1.imag;
+cin>>&cnum2.real, &cnum2.imag;
+mul.real = cnum1.real * cnum2.real - cnum1.imag * cnum2.imag;
+mul.imag = cnum1.real * cnum2.imag + cnum2.real * cnum1.imag; 
+cout<<mul.real, mul.imag<<endl;
+
+return 0; }
