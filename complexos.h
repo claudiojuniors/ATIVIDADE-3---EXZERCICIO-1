@@ -7,8 +7,7 @@ using namespace std;
 struct tComplexos{
       float *real;
       float *imag;
-    }pComplexos;
-
+    }s1,s2;
 // INICIALIZANDO AS VARIAVEIS 
 
 void InicializarComplexo(struct tComplexos* pComplexos){
@@ -75,3 +74,16 @@ mul.imag = cnum1.real * cnum2.imag + cnum2.real * cnum1.imag;
 cout<<mul.real, mul.imag<<endl;
 
 return 0; }
+
+//ESTRUTURA QUE IRÁ FAZER A DIVISÃO 
+
+float  divComplex (float num1, float num2){
+  
+num1=(((s1.real)*(s2.real))+((s1.imag)*(s2.imag)))/(pow(s2.real,2)+pow(s2.imag,2));
+num2=(((s2.real)*(s1.imag))-((s1.real)*(s2.imag)))/(pow(s2.real,2)+pow(s2.imag,2));
+cout<<“nDivision: “<<“(“<<num1<<“)”<<“+”<<“(“<<num2<<“)”<<“i”;
+
+getch();
+
+
+}
