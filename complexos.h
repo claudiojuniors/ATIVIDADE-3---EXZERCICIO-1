@@ -63,7 +63,7 @@ int subtraiComplex ( int real,int imag, int a, int b, int c,int d, int result){
 
 // ESTRUTURA QUE IRÁ MULTIPLICAR OS COMPLEXOS 
 
-struct multComplexos(int cnum1, int cnum2, int mul) 
+struct tComplexos(int cnum1, int cnum2, int mul){ 
 
 cnum1=5;
 cnum2=3;
